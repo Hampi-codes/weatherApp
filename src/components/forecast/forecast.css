@@ -4,7 +4,8 @@
 }
 
 .daily-item {
-    background-color: #f5f5f5;
+    background-color: #477ca5;
+    color: #fff;
     border-radius: 15px;
     height: 40px;
     margin: 5px;
@@ -20,7 +21,7 @@
 }
 
 .day {
-    color: #212121;
+    color: #fff;
     flex: 1 1;
     font-weight: 600;
     cursor: pointer;
@@ -36,7 +37,7 @@
 
 .min_max {
     cursor: pointer;
-    color: #757575;
+    color: #fff;
 }
 
 .daily-details {
@@ -48,6 +49,10 @@
     flex: 1 1;
     grid-template-columns: auto auto;
     padding: 5px 15px;
+    background-color: #9DB2BF;
+    border-radius: 15px;
+    width: 95%;
+    margin: 0 auto;
 }
 
 .daily-details-itmes {
