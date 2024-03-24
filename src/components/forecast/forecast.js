@@ -28,7 +28,7 @@ export const Forecast = ({ data }) => {
                                 </div>
                             </AccordionItemButton>
                         </AccordionItemHeading>
-                        <AccordionItemPanel>
+                        <AccordionItemPanel className="accordion">
                             <div className="daily-details">
                                 <div className="daily-details-itmes">
                                     <label>Pressure</label>
